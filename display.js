@@ -5,7 +5,7 @@
 
 // ServiceNow Stock Symbol = "NOW"
 
-var stringToDisplay = "Hello makerslab!";
+var stringToDisplay = "Hello makerslab123!";
 var utcOffset = +8;
 var stockSymbol = "NOW";
 
