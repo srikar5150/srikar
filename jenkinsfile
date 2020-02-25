@@ -16,6 +16,7 @@ pipeline
       {
         echo "$names"
         sh label: '', script: 'sh shell.sh $names'
+        echo "srikar"
         sh label: '', script: 'curl -X POST -d @result.json http://10.166.71.152:8080/api/now/hemanth_api/heman --header "Content-Type:application/json"'
       }
    }
